@@ -1,0 +1,10 @@
+<!--#config errmsg="[Ошибка директивы SSI!]"-->
+<title>[<!--#echo var="DOCUMENT_ROOT" --><!--#echo var="REQUEST_URI" -->]</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<font face="Verdana">
+<font color='white'>
+<body bgcolor="#013220">
+<body link="lime" vlink="#cecece" alink="#ff0000" bgcolor="black">
+<center>
+<pre><h1>[<!--#echo var="DOCUMENT_ROOT" --><!--#echo var="REQUEST_URI" -->]</pre></h1>
+<center>

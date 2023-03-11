@@ -1,0 +1,621 @@
+ * {
+            font-family: 'Arial';
+            font-size: 97.8%;
+            margin: 0
+            
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: normal
+        }
+
+        table {
+            border-collapse: collapse
+        }
+
+        th,
+        td {
+            padding: 0;
+            text-align: left;
+            vertical-align: top;
+            border-collapse: collapse
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        ol,
+        ul,
+        li {
+            padding: 0
+        }
+
+        a {
+            text-decoration: underline
+        }
+
+        img {
+            border: 0
+        }
+
+        b {
+            font-weight: normal
+        }
+
+        i {
+            font-style: normal
+        }
+
+        body {
+            margin: 0;
+            padding: 0 0 5px;
+            color: #000;
+            background: #fff
+        }
+
+        .iphone,
+        .android {
+            font-size: 16px
+        }
+
+        .iphone {
+            -webkit-text-size-adjust: none
+        }
+
+        :link {
+            color: #1A3DC1
+        }
+
+        .g-delimiter {
+            margin: 0 4px 8px 7px;
+            padding-top: 7px;
+            border-top: 1px solid #d9d9d9
+        }
+
+        .b-head {
+            font-size: 100%;
+            width: 100%;
+            margin: 7px 0 10px;
+            border-collapse: separate;
+            border-left: 7px solid #fff
+        }
+
+        .b-head__logo,
+        .b-head__name,
+        .b-head__user {
+            vertical-align: top
+        }
+
+        .b-head__logo {
+            width: 55px
+        }
+
+        .b-head__logo-img {
+            display: block;
+            width: 55px;
+            height: 23px;
+            border: 0
+        }
+
+        .b-head__name-desc {
+            font-weight: 400;
+            float: left;
+            margin: 0 3px;
+            padding: 1px 4px 2px;
+            white-space: nowrap
+        }
+
+        .b-head__name-link {
+            color: #000
+        }
+
+        .b-head__user {
+            width: 100%;
+            padding-right: 4px;
+            text-align: right;
+            line-height: 100%
+        }
+
+        .b-head__user .b-user,
+        .b-head__user .b-user__first-letter {
+            font-weight: 400
+        }
+
+        .b-head__user .b-user {
+            display: block
+        }
+
+        .b-user,
+        .b-user__first-letter {
+            font-weight: 400
+        }
+
+        .b-user,
+        .b-user__link:link,
+        .b-user__link,
+        .b-user__first-letter {
+            color: #000 !important
+        }
+
+        .b-user__link,
+        .b-user__link .b-user__first-letter {
+            text-decoration: underline !important
+        }
+
+        .b-user__first-letter {
+            color: #f00 !important
+        }
+
+        .b-title {
+            margin: 0 0 6px
+        }
+
+        .b-title a {
+            color: #000
+        }
+
+        .b-icon {
+            padding: 0 3px 0 0;
+            vertical-align: middle;
+            background: #fff
+        }
+
+        .h-search {
+            margin: 0
+        }
+
+        .b-search__layout * {
+            font-size: 11px
+        }
+
+        .b-search>.b-search__layout * {
+            font-size: 100%
+        }
+
+        .b-search__layout-l,
+        .b-search__text {
+            width: 100%
+        }
+
+        .b-search__layout-l {
+            padding: 0 2px 0 0
+        }
+
+        .b-search>.b-search__layout .b-search__layout-l {
+            padding: 0 5px 0 0
+        }
+
+        * html .b-search__layout-r {
+            padding: 0 0 0 10px
+        }
+
+        .b-search__layout-l,
+        .b-search__layout-r,
+        .b-search__text,
+        .b-search__button {
+            vertical-align: middle
+        }
+
+        * html .b-search_theme_arrow {
+            padding-right: 15px
+        }
+
+        .b-search_theme_arrow .b-suggest-list {
+            top: 100%;
+            left: 7px
+        }
+
+        .b-suggest-elem_nah {
+            color: #639 !important
+        }
+
+        .b-form-input__input {
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box
+        }
+
+        .iphone .b-form-input,
+        .android .b-form-input {
+            position: relative;
+            display: block
+        }
+
+        .iphone .b-form-input__input,
+        .android .b-form-input__input {
+            padding-right: 29px !important
+        }
+
+        .b-tabs {
+            margin: 4px 0 15px 7px
+        }
+
+        .b-tabs .tab {
+            margin-right: 10px
+        }
+
+        .h-region {
+            margin: 0 4px 5px 7px
+        }
+
+        .h-region table {
+            width: 100%
+        }
+
+        .b-region {
+            color: #060
+        }
+
+        .h-region .r {
+            font-size: 90%;
+            padding-left: 4px;
+            text-align: right;
+            vertical-align: bottom
+        }
+
+        .b-rates .b-title {
+            margin: 0
+        }
+
+        .b-rates a:link {
+            color: #37496d
+        }
+
+        .b-rates strong {
+            color: #000
+        }
+
+        .b-rates .inactive {
+            color: #666
+        }
+
+        .b-rates .hot {
+            background: #fff69e
+        }
+
+        .b-rates table {
+            margin: 0 0 5px 0;
+            empty-cells: show;
+            border-spacing: 0;
+            border-collapse: collapse;
+            color: #666
+        }
+
+        .b-rates table th {
+            font-weight: normal;
+            padding: 0 4px 0 0;
+            text-align: left;
+            white-space: nowrap;
+            color: #000
+        }
+
+        .b-rates table td {
+            text-align: right;
+            padding: 0 4px 2px 0
+        }
+
+        .b-rates table .head td {
+            text-align: right
+        }
+
+        .b-rates table .s td {
+            padding: 3px 0 0 0
+        }
+
+        .b-rates table .a td {
+            padding-top: 3px
+        }
+
+        .b-rates .b-rates__buysell td {
+            padding-left: 10px
+        }
+
+        .b-info li {
+            margin: 0 0 7px
+        }
+
+        .b-info__likeplaintext {
+            color: #000;
+            text-decoration: none
+        }
+
+        .b-info__likeplaintext span {
+            color: #1A3DC1;
+            text-decoration: underline
+        }
+
+        .b-info_news {
+            margin: 0 4px 8px 7px
+        }
+
+        .b-info_news select,
+        .b-info_news input {
+            margin: 1px 0 0
+        }
+
+        .b-info_news select {
+            margin-right: 3px
+        }
+
+        .b-info_news_important {
+            vertical-align: middle
+        }
+
+        .b-tv {
+            margin-bottom: 1px
+        }
+
+        .b-tv td {
+            padding: 0 0 7px
+        }
+
+        td.b-tv__time {
+            padding-right: 5px
+        }
+
+        .b-tv__channel {
+            white-space: nowrap
+        }
+
+        .b-tabs {
+            margin: 4px 0 15px 7px
+        }
+
+        .b-tabs .tab {
+            margin-right: 10px
+        }
+
+        .b-informers {
+            min-width: 223px;
+            max-width: 320px;
+            margin: 0 1px 12px 3px
+        }
+
+        .b-informers table {
+            width: 100%
+        }
+
+        .b-informers .item {
+            width: 33%;
+            text-align: center;
+            vertical-align: middle;
+            border-left: 1px solid #c0bdb2;
+            border-bottom: 1px solid #c0bdb2;
+            background: url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/m/inform.png) 0 100% repeat-x
+        }
+
+        body .b-informers .item-add {
+            width: 50%
+        }
+
+        .b-informers .link {
+            font-size: 90%;
+            display: block;
+            margin: 3px 2px 2px;
+            text-align: center;
+            text-decoration: none;
+            color: #333
+        }
+
+        .b-informers .m {
+            display: block;
+            vertical-align: middle;
+            white-space: nowrap
+        }
+
+        .b-informers .num {
+            font-size: 140%
+        }
+
+        .b-informers .m img {
+            margin: 0 4px 0 0;
+            vertical-align: middle
+        }
+
+        .b-informers .mail {
+            background-color: #edf3ff;
+            border-right: 1px solid #c0bdb2
+        }
+
+        .b-informers .enter {
+            display: block;
+            text-decoration: underline;
+            color: #42629D
+        }
+
+        .b-informers .shadow-l {
+            width: 4px !important;
+            background: url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/m/shadow-l.png) 0 100% no-repeat
+        }
+
+        .b-informers .shadow-r {
+            background: url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/m/shadow-r.png) 0 100% no-repeat
+        }
+
+        .b-informers .shadow-i {
+            width: 4px;
+            height: 13px;
+            margin-top: -1px
+        }
+
+        .b-informers .shadow-il {
+            background: url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/m/shadow-l.png) 0 0 no-repeat
+        }
+
+        .b-informers .shadow-ir {
+            background: url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/m/shadow-r.png) 0 0 no-repeat
+        }
+
+        .b-apps .item {
+            float: none;
+            margin: 6px 0 0;
+            background: none
+        }
+
+        .b-apps .item-promo {
+            margin-top: 15px
+        }
+
+        .b-apps .item-promo__desc {
+            margin-left: 20px;
+            display: block
+        }
+
+        .b-apps .partn {
+            margin-top: 14px
+        }
+
+        .b-apps .adv .b-icon {
+            vertical-align: -4px
+        }
+
+        .b-apps .b-title {
+            margin: 0 0 2px
+        }
+
+        .b-apps .appsize {
+            padding-left: 10px
+        }
+
+        .b-apps__agreement {
+            font-size: 85%;
+            margin: 6px 0 0
+        }
+
+        .b-apps .promo {
+            display: inline-block;
+            margin: 0 0 5px;
+            padding: 7px 6px 3px;
+            background: #FFF68D url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/m/arr-chooser-up.gif) 0 0 no-repeat
+        }
+
+        .b-apps ul {
+            overflow: hidden
+        }
+
+        .b-apps li {
+            float: left;
+            margin: 8px 6px 8px 0
+        }
+
+        .b-apps__app,
+        .b-apps__more {
+            font-size: 85%;
+            display: block;
+            float: left;
+            width: 80px;
+            height: 29px;
+            padding: 52px 0 0 0;
+            text-align: center;
+            text-decoration: none;
+            color: #2f4159;
+            background: no-repeat center 12px
+        }
+
+        .b-apps__more {
+            width: 36px;
+            height: 29px;
+            background: url(https://web.archive.org/web/20110827061854im_/http://img.yandex.net/i/mobile/apps/more.png) no-repeat center 21px, -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eaf1f4))
+        }
+
+        .b-apps__app img {
+            display: block;
+            width: 36px;
+            height: 36px;
+            margin: 0 auto;
+            padding: 0 0 4px 0
+        }
+
+        .b-apps table {
+            width: 100%;
+            margin-top: 8px;
+            margin: 6px 3px 3px 3px border-collapse:separate;
+            border-spacing: 3px;
+            text-align: center
+        }
+
+        .b-apps-touch__inner {
+            padding: 9px 6px 6px 6px
+        }
+
+        .b-app-touch {
+            vertical-align: top;
+            background: no-repeat center 15px
+        }
+
+        .b-app-touch__link {
+            font-size: 12px;
+            font-weight: bold;
+            display: block;
+            width: 70px;
+            margin: auto;
+            text-align: center;
+            color: #2d3f57
+        }
+
+        .b-app-touch__icon {
+            display: block;
+            width: 57px;
+            height: 57px;
+            margin: 0 auto 3px auto
+        }
+
+        .b-app-touch__icon_placeholder_yes {
+            height: 66px;
+            margin: 0 0 4px 0;
+            -webkit-border-radius: 5px;
+            border: 3px solid #c5c5c5
+        }
+
+        .b-apps-touch__more {
+            display: block;
+            margin-bottom: 3px;
+            line-height: 25px;
+            text-align: center
+        }
+
+        .b-foot {
+            margin-top: 25px;
+            padding: 5px 4px 0 7px;
+            border-top: 1px solid #ccc
+        }
+
+        .b-foot__copyright {
+            margin: 0
+        }
+
+        .b-foot__info {
+            margin: 5px 0 0
+        }
+
+        .b-foot__form {
+            margin: 5px 0 7px
+        }
+
+        .b-foot__services {
+            margin-right: 3px
+        }
+
+        .b-foot__services,
+        .b-foot__button {
+            font: 100% Arial, sans-serif;
+            margin-bottom: 3px
+        }
+
+        .b-foot__waplog {
+            width: 1px;
+            height: 1px
+        }
+
+        .b-informers .color {
+            background-color: #F9E8B1;
+        }
